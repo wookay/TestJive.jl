@@ -1,9 +1,8 @@
 # TestJive.jl
 
-|  **Build Status**               |
-|:-------------------------------:|
-|  [![][travis-img]][travis-url]  |
-
+|  **Build Status**                |
+|:---------------------------------|
+|  [![][actions-img]][actions-url] |
 
 ```
 ~/.julia/dev/TestJive/test$ julia runtests.jl
@@ -25,5 +24,5 @@
 ```
 
 
-[travis-img]: https://api.travis-ci.org/wookay/TestJive.jl.svg?branch=master
-[travis-url]: https://travis-ci.org/wookay/TestJive.jl
+[actions-img]: https://github.com/wookay/TestJive.jl/workflows/CI/badge.svg
+[actions-url]: https://github.com/wookay/TestJive.jl/actions
