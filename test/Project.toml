@@ -6,4 +6,4 @@ Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
 test = ["Test", "Jive"]
 
 [compat]
-Jive = "0.2"
+Jive = "0.3"
