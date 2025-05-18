@@ -7,20 +7,22 @@
 ```
 ~/.julia/dev/TestJive/test$ julia runtests.jl
 1/2 test1.jl
-    Pass 1  (0.08 seconds)
+    Pass: 1  (compile: 0.06, recompile: 0.01, elapsed: 0.06 seconds)
 2/2 test2.jl
-    Pass 1  (0.01 seconds)
-✅  All 2 tests have been completed.  (0.39 seconds)
+    Pass: 1  (compile: 0.00, elapsed: 0.00 seconds)
+✅  All 2 tests have been completed.  (compile: 0.06, recompile: 0.01, elapsed: 0.06 seconds)
+
+~/.julia/dev/TestJive/test$ julia runtests.jl test2 test1
+1/2 test2.jl
+    Pass: 1  (compile: 0.06, recompile: 0.01, elapsed: 0.06 seconds)
+2/2 test1.jl
+    Pass: 1  (compile: 0.00, elapsed: 0.00 seconds)
+✅  All 2 tests have been completed.  (compile: 0.06, recompile: 0.01, elapsed: 0.07 seconds)
 
 ~/.julia/dev/TestJive/test$ julia runtests.jl test1
 1/1 test1.jl
-    Pass 1  (0.07 seconds)
-✅  All 1 test has been completed.  (0.34 seconds)
-
-~/.julia/dev/TestJive/test$ julia runtests.jl test2
-1/1 test2.jl
-    Pass 1  (0.08 seconds)
-✅  All 1 test has been completed.  (0.37 seconds)
+    Pass: 1  (compile: 0.05, recompile: 0.01, elapsed: 0.06 seconds)
+✅  All 1 test has been completed.  (compile: 0.05, recompile: 0.01, elapsed: 0.06 seconds)
 ```
 
 
